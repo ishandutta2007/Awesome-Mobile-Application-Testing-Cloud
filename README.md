@@ -1,8 +1,11 @@
 # Awesome Mobile Application Testing Cloud 📱☁️🧪
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="./assets/banner.svg" alt="Awesome Mobile Application Testing Cloud Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud?style=social&color=white" alt="Repo Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud?style=social&color=white" alt="Repo Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
@@ -11,7 +14,7 @@
 
 ---
 
-> 🚀 **The definitive curated list of Mobile Application Testing Cloud platforms and Real Device Farms.** Explore leading commercial SaaS device clouds and production-ready open-source infrastructure for running automated and manual tests across real Android, iOS, iPadOS, and Smart TV fleets.
+> 🚀 **The definitive curated list of Mobile Application Testing Cloud platforms and Real Device Farms.** Explore leading commercial SaaS device clouds and production-ready open-source infrastructure for running automated and manual tests across real Android 🤖, iOS 🍏, iPadOS 📱, and Smart TV 📺 fleets.
 >
 > 🌟 *Star this repository to track the mobile cloud testing ecosystem!* 🌟
 
@@ -35,7 +38,7 @@
 - [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
 - [🤝 Contributing](#-contributing)
 - [💖 Support & Sponsorship](#-support--sponsorship)
-- [📈 Star History](#-star-history)
+- [##  Star History](#--star-history)
 - [📄 License](#-license)
 
 ---
@@ -220,14 +223,8 @@ If this curated repository saved you research time or assisted in choosing the r
 
 ---
 
-## 📈 Star History
-
-<a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
-  </picture>
-</a>
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&type=date&legend=top-left)
 
 ---
 
