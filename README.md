@@ -139,3 +139,12 @@ This list is released under CC0 1.0 Universal (Public Domain). The software proj
 ---
 
 ⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
+  </picture>
+</a>
