@@ -1,146 +1,226 @@
-# Awesome-Mobile-Application-Testing-Cloud
+# Awesome Mobile Application Testing Cloud 📱☁️🧪
 
-# Awesome Mobile Application Testing Cloud
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud?style=social&color=white" alt="Repo Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud?style=social&color=white" alt="Repo Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Application-Testing-Cloud/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> A curated list of top Mobile Application Testing Cloud platforms — both SaaS/Hosted commercial device clouds and open-source alternatives for running manual and automated tests on real Android and iOS devices.
-> 🌟 Star this repo if you find it useful! 🌟
+---
+
+> 🚀 **The definitive curated list of Mobile Application Testing Cloud platforms and Real Device Farms.** Explore leading commercial SaaS device clouds and production-ready open-source infrastructure for running automated and manual tests across real Android, iOS, iPadOS, and Smart TV fleets.
+>
+> 🌟 *Star this repository to track the mobile cloud testing ecosystem!* 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [BrowserStack Mobile App Testing](#browserstack-mobile-app-testing)
-  - [Sauce Labs Mobile](#sauce-labs-mobile)
-  - [AWS Device Farm](#aws-device-farm)
-  - [Kobiton](#kobiton)
-  - [HeadSpin](#headspin)
-  - [TestGrid](#testgrid)
-- [Open-Source Software](#-open-source-software)
-  - [Hydra Lab](#hydra-lab)
-  - [GADS](#gads)
-  - [Device Farmer STF](#device-farmer-stf)
-  - [Sonic](#sonic)
-  - [AppiumTestDistribution](#appiumtestdistribution)
-  - [Maestro](#maestro)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [1. Maestro](#1-maestro-)
+  - [2. OpenSTF (Smartphone Test Farm)](#2-openstf-smartphone-test-farm-)
+  - [3. Device Farmer STF](#3-device-farmer-stf-)
+  - [4. Macaca](#4-macaca-)
+  - [5. Sonic](#5-sonic-)
+  - [6. Hydra Lab (Microsoft)](#6-hydra-lab-microsoft-)
+  - [7. Appium Device Farm](#7-appium-device-farm-)
+  - [8. GADS](#8-gads-)
+  - [9. DeviceHub](#9-devicehub-)
+  - [10. MCloud](#10-mcloud-)
+- [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global mobile application testing and cloud testing solutions market is valued at approximately **$12.5 billion in 2026** and projected to reach **$38.5 billion by 2032**, expanding at a Compound Annual Growth Rate (CAGR) of ~15.2%. The sector exhibits a **hybrid market structure with high platform infrastructure concentration alongside moderate fragmentation across services and specialized tooling**: hyperscalers and top-tier testing clouds (AWS Device Farm, BrowserStack, Sauce Labs) dominate global device hosting and enterprise execution infrastructure, while innovative startups and active open-source platforms compete vigorously on developer experience, AI-assisted self-healing test automation, and self-hosted private device farm deployments.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Mobile Application Testing Cloud platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted real-device testing infrastructure and automated execution clouds, sorted in descending order by company valuation / parent revenue scale.
 
-### BrowserStack Mobile App Testing
-**Type:** Large-scale real device cloud with broad framework support
-BrowserStack provides access to **30,000+ real iOS and Android devices** hosted across global data centers, with App Live for interactive manual testing and App Automate for automated testing via Appium, Espresso, XCUITest, Flutter, and Detox . Devices are wiped clean after each session, and day-0 device availability ensures testing on newly launched hardware. A free forever plan is available, though automation plans on real devices start at **$199/month** for a single parallel test [citation:7]. **Best for:** Teams wanting the broadest device coverage and a mature manual testing experience with a free entry point.
-
-### Sauce Labs Mobile
-**Type:** Programmable device cloud with deep API access for AI workflows
-Sauce Labs provides real devices across major manufacturers, with a **Real Device Access API** that exposes the device as programmable infrastructure. Engineers can issue raw ADB and xcrun commands, stream live video and logs, and maintain sessions up to **24 hours** — all through HTTP requests without requiring Appium or Espresso . The API is **MCP-ready**, allowing AI agents to interact with devices as native tools. An IDE plugin enables device access directly from VS Code, Cursor, and IntelliJ . **Best for:** Teams needing deep device-level control for AI-driven workflows, soak tests, and custom automation beyond standard frameworks.
-
-### AWS Device Farm
-**Type:** Pay-per-minute real device testing within AWS
-AWS Device Farm provides access to physical Android, iOS, and web apps on real devices hosted by AWS . It offers a fully managed Appium endpoint for remote testing with live debugging, video, logs, and Appium Inspector support, plus support for Espresso, XCTest, and built-in test suites that require no scripting . Pricing is **$0.17 per device minute** after a one-time 1,000-minute trial, with unmetered testing at **$250 per device slot per month** [citation:7]. **Best for:** AWS-centric teams with uneven testing schedules wanting pay-as-you-go pricing and native AWS integration.
-
-### Kobiton
-**Type:** Real device cloud with AI automation and on-premises options
-Kobiton offers real device access in public, private, and local clouds, plus **on-premises deployment** for sensitive environments . Its AI engine delivers script generation, self-healing execution, and no-code testing, with integrations into Jira, GitHub Actions, Jenkins, and Bitrise . The **Startup plan is $83/month for 500 minutes**, making it the lowest entry price among major automation platforms, though minutes are capped and unlimited script generation is Enterprise-only [citation:7]. **Best for:** Small teams testing in occasional bursts wanting AI-assisted automation at a low entry price, or teams wanting to manage their own device lab.
-
-### HeadSpin
-**Type:** Performance-focused real device cloud across global locations
-HeadSpin focuses on performance as well as functionality, tracking **130+ performance metrics** across UI, network, and device . Its SIM-enabled devices sit in more than 50 countries, making it valuable for validating app performance on local carriers in different markets. AI-driven issue detection runs and validates tests, healing them when they break . The **CloudTest Lite plan starts at $39/month** for one user and 40 hours of manual testing, but automation and performance features are add-ons on higher tiers [citation:7]. **Best for:** Teams where slow load times are costing users or shipping in many countries needing real-world performance validation.
-
-### TestGrid
-**Type:** Real device cloud with AI CoTester and device vitals
-TestGrid combines real devices with its AI **CoTester** assistant for generating and maintaining test flows, plus **AgentRx** for self-healing automation . Real-time device vitals (CPU, memory, battery, network) are available during testing, along with Appium Inspector, ADB commands, and Charles Proxy workflows. It supports network condition simulation (2G, unstable Wi-Fi, airplane mode) and MDM support for regulated companies [citation:7]. **Best for:** Teams wanting AI-assisted test creation with strong real-world scenario simulation and device vitals.
+| Platform | Company Scale (Revenue / Valuation) | Starting Pricing (Paid Tiers) | Free Tier / Trial Limits | Key Specialization & Device Scope |
+|:---|:---|:---|:---|:---|
+| **AWS Device Farm** | **$184B+ Annual Run-Rate** *(Amazon Web Services / NASDAQ: AMZN)* | **$0.17 /device minute** *(Pay-As-You-Go metered)* or **$250 /device slot/month** *(Unmetered continuous testing)* | **One-time 1,000 free device minutes** *(no expiration, applies to automated and remote access testing)* | Native AWS cloud integration, managed Appium/Espresso/XCTest execution on 2,500+ physical devices, custom VPC access, and dedicated private device hardware options ($200/mo). |
+| **BrowserStack Mobile App Testing** | **$4.0B Valuation** *(~$230M Annual Recurring Revenue)* | **$39 /month** *(App Live manual testing, 1 user, billed annually)* / **$199 /month** *(App Automate, 1 parallel execution slot)* | **Free trial with 30 minutes** of interactive manual App Live testing & **100 minutes** of automated App Automate runs | Industry's largest real device cloud with 30,000+ Android & iOS devices, Day-0 OS/hardware availability, Biometric testing simulation, and camera image injection. |
+| **Sauce Labs Mobile** | **~$613M Valuation** *(~$85M Annual Revenue)* | **$39 /month** *(Live testing manual, billed annually)* / **$199 /month** *(Real Device Cloud automated, 1 parallel test)* | **28-day free trial** *(includes 60 automated & live testing minutes, 3 virtual machines in parallel, and 50 AI test authoring queries)* | Deep Real Device Access API exposing raw ADB and xcrun commands via HTTP, MCP-ready for AI agents, 24-hour long-running soak sessions, and IDE plugins. |
+| **HeadSpin** | **$28M Acquisition** *(PartnerOne; previously $1.16B peak valuation, ~$21M ARR)* | **$39 /month** *(CloudTest Lite, 1 user, up to 40 hours manual testing/mo)* / **$139 /month** *(CloudTest automated 1 parallel test)* | **Free trial upon sales demo request** *(custom evaluation window, 1 concurrent device allocation)* | Global SIM-card enabled real-device network across 50+ countries, tracking 130+ packet and audio/video performance KPIs, AI regression analysis, and network carrier simulation. |
+| **Kobiton** | **Undisclosed / Series B** *(~$40M venture funding raised)* | **$83 /month** *(Startup Plan, includes 500 real device minutes/month, billed annually)* | **30-day free trial** *(100 device testing minutes across public cloud devices, no credit card required)* | Hybrid deployment flexibility (public cloud, private cloud, and on-premises physical device labs), AI scriptless automation generation, self-healing tests, and ADB deep access. |
+| **TestGrid** | **Private SME** *(~$5M ARR, high-growth AI testing player)* | **$49 /user/month** *(Starter automated testing)* / **$199 /seat/month** *(CoTester Starter with dedicated real device slots)* | **Free forever plan** *(up to 200 minutes/month testing allowance, community support, no credit card required)* | AI CoTester and AgentRx engine for natural language test creation, self-healing test automation, real-time hardware device vitals (CPU, memory, battery), and Charles Proxy integration. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Mobile Application Testing Cloud tools. The open-source ecosystem spans **full cloud testing platforms with center-agent architecture**, **Appium-compatible device farms**, **Android device farm managers**, and **declarative UI automation frameworks**.
+Self-hosted, community-driven Mobile Application Testing Cloud tools and device farms. The open-source ecosystem covers **distributed center-agent cloud testing platforms**, **Appium-compatible device distribution plugins**, **Android and iOS real-device web control farms**, and **declarative end-to-end automation engines**.
 
-### Hydra Lab
-**Stack:** Java / Spring Boot / React / Docker | **License:** MIT (Microsoft)
-Hydra Lab is a framework from Microsoft that helps teams **build their own cloud testing infrastructure** using devices in hand . Key capabilities include:
-- **Scalable test device management** under a center-agent distributed design, with test task management and result visualization 
-- **Multi-framework support**: Appium (Java), Espresso, XCTest, Maestro, and Python Runner across Android, iOS, Windows, and Web 
-- **Case-free test automation**: Monkey test and Smart exploratory test 
-- **Out-of-box Docker image**: `ghcr.io/microsoft/hydra-lab-uber:latest` runs both center and agent instances, accessible at `http://localhost:9886/portal/index.html#/` 
-- **CI/CD integration**: Designed to integrate with modern pipelines 
+Sorted in descending order by GitHub repository star counts:
 
-With **1,069 stars and 91 forks** and active development (last push September 2026), it is one of the most complete open-source cloud testing platforms [citation:2][citation:8]. **Best for:** Teams wanting a proven, Microsoft-backed framework to build a self-hosted cloud testing platform with multi-framework support, accepting the Java/Spring Boot stack.
+### 1. Maestro [![Stars](https://img.shields.io/github/stars/mobile-dev-inc/Maestro?style=social&color=white)](https://github.com/mobile-dev-inc/Maestro/stargazers)
+- **Repository:** [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro)
+- **Tech Stack:** Kotlin ☕ • Java • YAML
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Web 🌐 • React Native ⚛️ • Flutter 🐦
+- **Why It Stands Out:**
+  - Fast, declarative mobile UI and end-to-end regression testing framework using human-readable YAML flows instead of complex code.
+  - Built-in resilience and smart UI waiting that eliminates flakiness without manual sleep statements.
+  - Seamlessly runs on local emulators/simulators, real connected devices, and CI/CD pipelines with zero compilation steps.
 
-### GADS
-**Stack:** Go / Appium / WebDriverAgent | **License:** AGPL-3.0 (core) / Proprietary (hub-ui)
-GADS is a self-hosted device farm for remote control of Android and iOS devices and Appium test execution . Key features include:
-- **Real-time video streaming** (MJPEG/WebRTC) for both iOS (via WebDriverAgent) and Android 
-- **Remote interactions**: tap, swipe, text input, clipboard, keyboard typing, app installation 
-- **Device reservation system** with workspace-level access control 
-- **Appium-compatible** with optional Selenium Grid 4 node registration 
-- **Smart TV automation** for Samsung Tizen OS and LG WebOS (automation only) 
+### 2. OpenSTF (Smartphone Test Farm) [![Stars](https://img.shields.io/github/stars/openstf/stf?style=social&color=white)](https://github.com/openstf/stf/stargazers)
+- **Repository:** [openstf/stf](https://github.com/openstf/stf)
+- **Tech Stack:** Node.js 🟩 • ZeroMQ • RethinkDB 🍃 • AngularJS
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖
+- **Why It Stands Out:**
+  - The pioneering open-source web application for controlling, managing, and debugging real Android devices remotely from a browser.
+  - Real-time smooth screen streaming via minicap and fast touch interaction via minitouch.
+  - Remote ADB debugging access exposing a local port to connect developer workstations directly to remote farm devices.
 
-Platform support: full Android and iOS on macOS; limited iOS on Linux/Windows due to Xcode dependency . The project is **dual-licensed** with the core under AGPL-3.0 and the `hub-ui` directory under a proprietary obfuscated license . **Best for:** Teams wanting a self-hosted device farm with Appium compatibility and remote control across Android, iOS, and Smart TVs, accepting the dual-license arrangement.
+### 3. Device Farmer STF [![Stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers)
+- **Repository:** [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf)
+- **Tech Stack:** Node.js 🟩 • TypeScript • RethinkDB • ADB
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖
+- **Why It Stands Out:**
+  - The actively maintained community successor and continuation of the original OpenSTF project, supporting modern Android versions (Android 10 through 15+).
+  - Web-based shell terminal, real-time logcat streaming, file push/pull manager, and APK drag-and-drop installation.
+  - Remote debug panel providing instant `adb connect` endpoints compatible with Chrome DevTools and Android Studio.
 
-### Device Farmer STF
-**Stack:** Node.js / TypeScript / RethinkDB / ADB | **License:** Apache-2.0
-Device Farmer STF is the leading actively maintained open-source **Android device farm**, allowing teams to share and control physical devices remotely via a web interface [citation:5]. It supports the full ADB workflow including shell, logcat, and file management through the web UI, with a **Remote Debug panel** that exposes an `adb connect` command for connecting a remote device to your workstation for Chrome DevTools inspection. It is a maintained fork/derivative of the original OpenSTF project, which was archived. The npm package `@devicefarmer/stf` has **2,484 stars** and is actively maintained [citation:12]. **Best for:** Android QA teams wanting to share physical devices across a distributed team with genuine remote ADB debugging access.
+### 4. Macaca [![Stars](https://img.shields.io/github/stars/alibaba/macaca?style=social&color=white)](https://github.com/alibaba/macaca/stargazers)
+- **Repository:** [alibaba/macaca](https://github.com/alibaba/macaca)
+- **Tech Stack:** Node.js 🟩 • Python 🐍 • Java • WebDriver
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Web 🌐 • Hybrid Apps
+- **Why It Stands Out:**
+  - Open-source automation solution from Alibaba designed for multi-end mobile and web testing across entire release pipelines.
+  - Complete ecosystem featuring UI inspection (Macaca Inspector), device farm orchestration, and cross-language driver SDKs.
+  - Lightweight runner architecture supporting continuous regression testing on physical devices and emulators.
 
-### Sonic
-**Stack:** Spring Cloud / Vue 3 / Docker / Netty | **License:** Open Source
-Sonic is an open-source cloud real-device platform that integrates remote control debugging and automated testing of mobile devices . Key capabilities include **zero-code UI automation** with a block-based interface, cross-platform support for Android, iOS, Web, Windows, and macOS, **remote control and debugging** across networks via Agent nodes, integrated Chrome DevTools for WebView debugging, one-click proxy packet capture, a distributed cluster for multi-datacenter deployment, and CI/CD integration with Jenkins plugin support [citation:4][citation:11]. **Best for:** Small to mid-sized teams wanting a self-hosted cloud device platform with UI automation, remote debugging, and CI/CD integration without commercial licensing.
+### 5. Sonic [![Stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers)
+- **Repository:** [SonicCloudOrg/sonic-server](https://github.com/SonicCloudOrg/sonic-server)
+- **Tech Stack:** Spring Cloud 🍃 • Vue 3 🖖 • Docker 🐳 • Netty
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Windows 🪟 • macOS 🍎 • Web 🌐
+- **Why It Stands Out:**
+  - Comprehensive distributed cloud real-device platform integrating remote control debugging and zero-code automated test execution.
+  - Multi-datacenter agent architecture allowing geographically dispersed physical device labs to connect to a unified portal.
+  - Built-in network packet capture, audio streaming, WebView debugging via Chrome DevTools, and native Jenkins CI/CD plugins.
 
-### AppiumTestDistribution
-**Stack:** TypeScript / Appium 2.0 | **License:** Open Source
-AppiumTestDistribution (appium-device-farm) is an **Appium 2.0 plugin** designed to manage and create driver sessions on available devices automatically [citation:2]. It has **429 stars and 119 forks** and is actively maintained [citation:6]. It eliminates the need for manual device allocation logic in test frameworks, handling session creation and device management transparently. **Best for:** Teams already running Appium tests at scale wanting automatic device allocation and session distribution, accepting the Appium 2.0 dependency.
+### 6. Hydra Lab (Microsoft) [![Stars](https://img.shields.io/github/stars/microsoft/hydra-lab?style=social&color=white)](https://github.com/microsoft/hydra-lab/stargazers)
+- **Repository:** [microsoft/hydra-lab](https://github.com/microsoft/hydra-lab)
+- **Tech Stack:** Java ☕ • Spring Boot 🍃 • React ⚛️ • Docker 🐳
+- **License:** MIT
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Windows 🪟 • Web 🌐
+- **Why It Stands Out:**
+  - Microsoft-developed framework designed to help enterprise engineering teams build self-hosted cloud testing infrastructure with in-house devices.
+  - Multi-framework test execution engine supporting Appium, Espresso, XCTest, Maestro, and Python test suites.
+  - Out-of-the-box Docker uber-container providing center-agent distributed management, Monkey exploratory testing, and performance metric charts.
 
-### Maestro
-**Stack:** Java / YAML flows | **License:** Apache-2.0
-Maestro is an open-source framework for UI and end-to-end testing of Android, iOS, and web apps, using **human-readable YAML flows** that are interpreted rather than compiled . Key characteristics include **resilience and smart waiting** that handle dynamic UIs without manual `sleep()` calls, fast iteration without compilation, and a single-script installation . A community **maestro-runner** project supports real iOS devices, simulators, emulators, and cloud providers [citation:3]. Maestro Cloud offers parallel execution and scalability, though that is a commercial service [citation:15]. **Best for:** Teams wanting a lightweight, declarative mobile UI testing framework that runs on any device or cloud, accepting the YAML-based approach.
+### 7. Appium Device Farm [![Stars](https://img.shields.io/github/stars/AppiumTestDistribution/appium-device-farm?style=social&color=white)](https://github.com/AppiumTestDistribution/appium-device-farm/stargazers)
+- **Repository:** [AppiumTestDistribution/appium-device-farm](https://github.com/AppiumTestDistribution/appium-device-farm)
+- **Tech Stack:** TypeScript 🔷 • Appium 2.0 Plugin Architecture
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Apple TV 📺
+- **Why It Stands Out:**
+  - Official Appium 2.0 plugin that automatically provisions and allocates sessions across all connected real devices, emulators, and simulators.
+  - Eliminates the need for manual device ID filtering and custom routing in test automation suites.
+  - Offers a clean web dashboard displaying device availability, active test sessions, live video streaming, and device reservation capabilities.
+
+### 8. GADS [![Stars](https://img.shields.io/github/stars/shamanec/GADS?style=social&color=white)](https://github.com/shamanec/GADS/stargazers)
+- **Repository:** [shamanec/GADS](https://github.com/shamanec/GADS)
+- **Tech Stack:** Go 🔵 • Appium • WebDriverAgent • WebRTC
+- **License:** AGPL-3.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Smart TVs (Samsung Tizen, LG WebOS) 📺
+- **Why It Stands Out:**
+  - Modern self-hosted alternative to AWS Device Farm and Firebase Test Lab with sub-second low-latency WebRTC/MJPEG screen streaming.
+  - Native Appium integration, remote touch/swipe/keyboard interactions, clipboard syncing, and remote ADB shell debugging.
+  - Unique built-in support for connected Smart TV automation alongside standard Android and iOS mobile devices.
+
+### 9. DeviceHub [![Stars](https://img.shields.io/github/stars/VKCOM/devicehub?style=social&color=white)](https://github.com/VKCOM/devicehub/stargazers)
+- **Repository:** [VKCOM/devicehub](https://github.com/VKCOM/devicehub)
+- **Tech Stack:** Go 🔵 • React ⚛️ • Docker 🐳
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏
+- **Why It Stands Out:**
+  - Lightweight browser-based remote device management hub built for engineering teams to share physical smartphones.
+  - Low-latency real-time video streaming, interactive multi-touch controls, and APK drag-and-drop deployment.
+  - Integrated reverse port forwarding and remote debugging proxy capabilities for local developer tooling.
+
+### 10. MCloud [![Stars](https://img.shields.io/github/stars/zebrunner/mcloud?style=social&color=white)](https://github.com/zebrunner/mcloud/stargazers)
+- **Repository:** [zebrunner/mcloud](https://github.com/zebrunner/mcloud)
+- **Tech Stack:** Docker 🐳 • Ansible • Python 🐍 • Appium
+- **License:** Apache-2.0
+- **Supported Platforms:** Android 🤖 • iOS 🍏 • Smart TVs 📺
+- **Why It Stands Out:**
+  - Enterprise-grade mobile farm ecosystem orchestrating fleets of physical devices and simulators using Docker Compose and Ansible.
+  - Combines automated Appium test routing with human-interactive web-based remote control sessions.
+  - Native integration with the Zebrunner Continuous Testing platform for rich test execution analytics and failure reporting.
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature Comparison at a Glance
 
-| Software | License | Stack | Real Devices | Remote Control | Self-Hosted | Best For |
-|----------|---------|-------|--------------|----------------|-------------|----------|
-| **BrowserStack** | Proprietary | Cloud | ✅ 30,000+ | ✅ App Live | ❌ | Broadest coverage + free plan |
-| **Sauce Labs** | Proprietary | Cloud | ✅ Extensive | ✅ RDA API | (Private) | Deep device control + AI |
-| **AWS Device Farm** | Proprietary | Cloud | ✅ 2,500+ | ✅ Remote access | (Private lab) | AWS-native pay-per-minute |
-| **Kobiton** | Proprietary | Cloud/On-prem | ✅ | ✅ | (On-prem) | Low entry price + AI |
-| **Hydra Lab** | MIT | Java/Spring/Docker | ✅ (Your devices) | ✅ | ✅ | Build your own cloud platform |
-| **GADS** | AGPL-3.0 | Go/Appium | ✅ Android/iOS | ✅ MJPEG/WebRTC | ✅ | Appium-compatible farm |
-| **Device Farmer STF** | Apache-2.0 | Node.js/ADB | ✅ Android | ✅ ADB remote | ✅ | Shared Android devices |
-| **Sonic** | Open Source | Spring/Vue/Docker | ✅ Android/iOS | ✅ | ✅ | Full cloud device platform |
-| **AppiumTestDistribution** | Open Source | TypeScript | ✅ (Via Appium) | ❌ (Session mgmt) | ✅ | Appium test distribution |
-| **Maestro** | Apache-2.0 | Java/YAML | ✅ | ❌ (Automation) | ✅ | Declarative UI automation |
+| Platform / Tool | Model & License | Target Platforms | Real Device Fleet | Remote Control & Web UI | Self-Hosted / On-Prem | Automated Frameworks Supported | Ideal Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---|:---|
+| **AWS Device Farm** | Commercial SaaS | Android, iOS, Web | ✅ 2,500+ | ✅ | ⚠️ *(Private Lab)* | Appium, Espresso, XCTest, Python | Teams standardized on AWS wanting pay-per-minute flexibility |
+| **BrowserStack** | Commercial SaaS | Android, iOS, Web | ✅ 30,000+ | ✅ | ❌ | Appium, Espresso, XCUITest, Flutter, Detox | Teams needing the widest device coverage and Day-0 device access |
+| **Sauce Labs** | Commercial SaaS | Android, iOS, Web | ✅ Extensive | ✅ *(RDA API)* | ⚠️ *(Private Cloud)* | Appium, Espresso, XCUITest, Raw ADB | AI-driven testing workflows & long-running soak test sessions |
+| **HeadSpin** | Commercial SaaS | Android, iOS, Web | ✅ Global SIMs | ✅ | ⚠️ *(On-prem appliance)* | Appium, Selenium, XCUITest | Validating real-world cellular carrier and audio/video performance |
+| **Kobiton** | Commercial SaaS | Android, iOS | ✅ | ✅ | ✅ *(On-Premises)* | Appium, Espresso, XCUITest, Scriptless AI | Hybrid deployments combining in-house labs with cloud capacity |
+| **TestGrid** | Freemium SaaS | Android, iOS, Web | ✅ | ✅ | ✅ *(Hybrid/Local)* | Appium, Robot, Selenium, CoTester AI | Teams wanting AI-assisted test generation and deep device vitals |
+| **Maestro** | Open Source (Apache-2.0) | Android, iOS, Web | ✅ | ❌ *(Automation)* | ✅ | Maestro YAML | Fast, resilient declarative UI test automation without flakiness |
+| **OpenSTF** | Open Source (Apache-2.0) | Android | ✅ *(Your devices)* | ✅ | ✅ | ADB, Chrome DevTools | Distributing Android test devices across distributed engineering teams |
+| **Device Farmer STF**| Open Source (Apache-2.0) | Android (10-15+) | ✅ *(Your devices)* | ✅ | ✅ | ADB Remote, Chrome DevTools | Actively maintained Android device farm for distributed QA teams |
+| **Macaca** | Open Source (Apache-2.0) | Android, iOS, Web | ✅ *(Your devices)* | ✅ | ✅ | WebDriver, Macaca SDKs | Cross-platform multi-end enterprise testing pipelines |
+| **Sonic** | Open Source (Apache-2.0) | Android, iOS, Web | ✅ *(Your devices)* | ✅ | ✅ | Sonic Zero-Code, Appium | Multi-datacenter cloud real-device platform with zero-code automation |
+| **Hydra Lab** | Open Source (MIT) | Android, iOS, Win | ✅ *(Your devices)* | ✅ | ✅ | Appium, Espresso, XCTest, Maestro | Building a Microsoft-backed enterprise private device cloud |
+| **Appium Device Farm**| Open Source (Apache-2.0) | Android, iOS, tvOS | ✅ *(Your devices)* | ✅ | ✅ | Appium 2.0 | Automatic device allocation and session management for Appium grids |
+| **GADS** | Open Source (AGPL-3.0) | Android, iOS, TV | ✅ *(Your devices)* | ✅ *(WebRTC)* | ✅ | Appium, Selenium Grid 4 | Self-hosted AWS Device Farm alternative with Smart TV support |
+| **DeviceHub** | Open Source (Apache-2.0) | Android, iOS | ✅ *(Your devices)* | ✅ | ✅ | Reverse Port Forwarding | Lightweight real smartphone sharing hub with interactive web controls |
+| **MCloud** | Open Source (Apache-2.0) | Android, iOS, TV | ✅ *(Your devices)* | ✅ | ✅ | Appium, Zebrunner | Scalable containerized device fleet orchestration using Docker & Ansible |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Mobile Application Testing Cloud tool that should be listed here, please open a pull request with:
+Contributions are warmly welcome! If you maintain or use a mobile cloud testing platform, real device farm manager, or mobile automation infrastructure tool that fits this list:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/AddToolName`.
+3. Add your tool to the appropriate section in alphabetical or sorted order with:
+   - Tool name and link
+   - Tech stack and open-source license (or SaaS tier details)
+   - Why it stands out (2–3 bullet points)
+4. Commit your changes: `git commit -m "Add ToolName to Mobile Cloud Testing list"`.
+5. Push to your branch and open a Pull Request.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The open-source landscape for **self-hosted mobile testing clouds** has matured significantly in 2026. **Hydra Lab** from Microsoft is the most comprehensive option, providing a full center-agent cloud testing platform with multi-framework support (Appium, Espresso, XCTest, Maestro) and an out-of-box Docker image . **Sonic** offers a complete cloud real-device platform with UI automation and remote debugging . **GADS** provides a focused device farm with Appium compatibility and Smart TV support , while **Device Farmer STF** remains the leading maintained Android device farm . **AppiumTestDistribution** addresses the test distribution layer for teams already running Appium . **Maestro** fills a different need—declarative YAML-based UI automation that can run on any device or cloud . No single open-source project fully replicates BrowserStack's device breadth, but Hydra Lab and Sonic cover the core cloud testing workflow comprehensively for self-hosted deployments.
-
----
-
-## 📄 License
-
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+Please make sure open-source tools are actively maintained and adhere to open-source licensing standards.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+## 💖 Support & Sponsorship
 
-## Star History
+If this curated repository saved you research time or assisted in choosing the right Mobile Testing Cloud / Device Farm solution for your team, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other developers and QA engineers discover it.
+- 🍴 **Fork and contribute** your own insights or tools.
+- 📢 **Share with fellow mobile developers, QA leads, and SDETs.**
+- ☕ **Buy me a coffee / Sponsor:** Support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
 
 <a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&Timeline" align="center">
   <picture>
@@ -148,3 +228,9 @@ This list is released under CC0 1.0 Universal (Public Domain). The software proj
     <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
   </picture>
 </a>
+
+---
+
+## 📄 License
+
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0 - Public Domain Dedication). All referenced software, trademarks, and brand names belong to their respective copyright holders.
