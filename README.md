@@ -68,7 +68,7 @@ Commercial, cloud-hosted real-device testing infrastructure and automated execut
 
 Self-hosted, community-driven Mobile Application Testing Cloud tools and device farms. The open-source ecosystem covers **distributed center-agent cloud testing platforms**, **Appium-compatible device distribution plugins**, **Android and iOS real-device web control farms**, and **declarative end-to-end automation engines**.
 
-Sorted in descending order by GitHub repository star counts:
+Sorted in descending order by GitHub repository Stars_Counts:
 
 ### 1. Maestro [![Stars](https://img.shields.io/github/stars/mobile-dev-inc/Maestro?style=social&color=white)](https://github.com/mobile-dev-inc/Maestro/stargazers)
 - **Repository:** [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro)
@@ -231,3 +231,12 @@ If this curated repository saved you research time or assisted in choosing the r
 ## 📄 License
 
 This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0 - Public Domain Dedication). All referenced software, trademarks, and brand names belong to their respective copyright holders.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Application-Testing-Cloud&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Application-Testing-Cloud_growth.svg">
+  </picture>
+</a>
